@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".NewProject">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-70dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/mur" />
+
+    <ImageButton
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/murS"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/murbutt"
+        android:onClick="murS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="MUR Scada"
+        android:id="@+id/textView"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="#ff002015" />
+
+    <ImageButton
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/back"
+        android:layout_gravity="left|top"
+        android:focusable="true"
+        android:visibility="invisible"
+       />
+</FrameLayout>

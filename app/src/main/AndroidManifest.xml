@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.elminpro.miniscada002">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ConnectActivity"
+            android:label="Connecting"
+            android:theme="@style/Theme.AppCompat.Dialog">
+
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About">
+
+        </activity>
+        <activity
+            android:name=".NewProject">
+
+        </activity>
+        <activity android:name=".Mur">
+
+        </activity>
+        <activity
+            android:name=".ViewSettingsActivity"
+            android:theme="@style/Theme.AppCompat.Dialog">
+
+        </activity>
+    </application>
+
+</manifest>
